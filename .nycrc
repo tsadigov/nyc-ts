@@ -1,7 +1,0 @@
-
-{
-  "extends": "@istanbuljs/nyc-config-typescript",
-  "exclude":["**/coverage/**","**/*.spec.ts"],
-  "compact":false,
-  "preserveComments":true
-}
