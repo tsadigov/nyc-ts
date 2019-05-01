@@ -1,4 +1,4 @@
-import 'mocha';  
+import { expect } from 'chai';
 import { App } from './App';
 
 describe("123",()=>{
@@ -8,7 +8,7 @@ describe("123",()=>{
     });
 
     it("ok",()=>{
-        //expect(1).to.equal(1);
+        expect(app.add(0,1)).to.equal(1);
     });
 });
 
@@ -19,6 +19,6 @@ describe("456",()=>{
     });
 
     it("ok",()=>{
-        //expect(1).to.equal(1);
+        expect(app.sub(2,-1)).to.equal(3);
     });
 });
